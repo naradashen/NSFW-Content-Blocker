@@ -14,8 +14,8 @@
 
     // NSFW content detection logic
     function isNSFW(url) {
-        const nsfwKeywords = ['porn', 'xxx', 'adult', 'explicit', 'nudity', 'sex', 'erotic', 'hardcore', 'fetish', 'bondage' , 'bdsm' , 'anal' , 'threesome' , 'ganbang' , 'lesbian' , 'gay' , 'bisexual' , 'shemale' , 'milf' , 'cougar' , 'incest' , 'bestiality' , 'rape' , 'pedophilia' , 'child porn' , 'hentai' , 'webcam porn' , 'live cam' , 'cowgirl' , 'camboy' , 'webcam show' , 'masturbation' , 'vibrator' , 'dildo' , 'cumshot' , 'cum' , 'cumshot' , 'voyeur' , 'upskirt' , 'lingerie' , 'nude model' , 'adult film' , 'adult content' , '18+']; // Updated NSFW keywords
-        const nsfwUrls = ['pornhub.com', 'xvideos.com', 'youporn.com' , 'xnxx.com']; // Updated NSFW URLs
+        const nsfwKeywords = ['porn', 'xxx', 'adult', 'explicit', 'nudity', 'sex', 'erotic', 'hardcore', 'bang' , 'fetish', 'bondage' , 'bdsm' , 'anal' , 'suck' , 'threesome' , 'ganbang' , 'lesbian' , 'gay' , 'bisexual' , 'shemale' , 'milf' , 'cougar' , 'incest' , 'bestiality' , 'rape' , 'pedophilia' , 'child porn' , 'hentai' , 'webcam porn' , 'live cam' , 'cowgirl' , 'camboy' , 'webcam show' , 'masturbation' , 'vibrator' , 'ass' , 'dildo' , 'spank' , 'cumshot' , 'cum' , 'cumshot' , 'voyeur' , 'upskirt' , 'lingerie' , 'nude model' , 'adult film' , 'adult content' , '18+']; // Updated NSFW keywords
+        const nsfwUrls = ['pornhub.com', 'xvideos.com', 'youporn.com' , 'xnxx.com' , 'sxyprn.com']; // Updated NSFW URLs
         const allowedDomains = ['google.com', 'youtube.com', 'twitter.com', 'facebook.com', 'instagram.com']; // Allowed domains
 
         // Check if the URL is from allowed domains
